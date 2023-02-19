@@ -1,7 +1,6 @@
 .bounce-top {
   display: block;
-  -webkit-animation: bounce-top 2s infinite both;
-          animation: bounce-top 2s infinite both;
+  animation: bounce-top 2s infinite both;
 }
 
 /* ----------------------------------------------
@@ -15,42 +14,9 @@
  * animation bounce-top
  * ----------------------------------------
  */
-@-webkit-keyframes bounce-top {
-  0% {
-    transform: translate(-50%, -45px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    opacity: 1;
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    transform: translate(-50%, -24px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  65% {
-    transform: translate(-50%, -12px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  25%, 55%, 75%, 87% {
-    transform: translate(-50%, 0px);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translate(-50%, 0px);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
-}
 @keyframes bounce-top {
   0% {
     transform: translate(-50%, -45px);
-    -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
     opacity: 1;
   }
@@ -59,22 +25,18 @@
   }
   40% {
     transform: translate(-50%, -24px);
-    -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
   65% {
     transform: translate(-50%, -12px);
-    -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
   25%, 55%, 75%, 87% {
     transform: translate(-50%, 0px);
-    -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
   100% {
     transform: translate(-50%, 0px);
-    -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
     opacity: 1;
   }
@@ -211,7 +173,7 @@ header .fa-chevron-down {
 
 .aboutus-hero {
   position: relative;
-  background-image: url(../img/technology-poor.jpg);
+  background-image: url("../img/technology-poor.jpg");
   background-position: center;
   color: #ddd;
   z-index: 1;
@@ -287,7 +249,7 @@ header .fa-chevron-down {
 
 .team {
   position: relative;
-  background-image: url(/img/chairs-poor.jpg);
+  background-image: url("./img/chairs-poor.jpg");
   background-attachment: fixed;
   background-position: center;
   z-index: 1;
