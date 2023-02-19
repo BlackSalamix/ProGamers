@@ -210,7 +210,7 @@ header {
 
 .team {
 	position: relative;
-	background-image: url("./img/chairs-poor.jpg");
+	background-image: url("../img/chairs-poor.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	z-index: 1;
@@ -358,6 +358,9 @@ header {
 	}
 	.contact {
 		background-image: url("../img/skyline-fhd.jpg");
+	}
+	.team{
+		background-image: url("../img/chairs-fhd.jpg");
 	}
 }
 

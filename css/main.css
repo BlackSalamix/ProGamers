@@ -249,7 +249,7 @@ header .fa-chevron-down {
 
 .team {
   position: relative;
-  background-image: url("./img/chairs-poor.jpg");
+  background-image: url("../img/chairs-poor.jpg");
   background-attachment: fixed;
   background-position: center;
   z-index: 1;
@@ -379,6 +379,9 @@ header .fa-chevron-down {
   }
   .contact {
     background-image: url("../img/skyline-fhd.jpg");
+  }
+  .team {
+    background-image: url("../img/chairs-fhd.jpg");
   }
 }
 @media (min-width: 767px) and (max-width: 1400px) {
